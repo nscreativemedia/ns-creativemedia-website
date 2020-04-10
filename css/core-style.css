@@ -901,7 +901,7 @@ img {
     overflow-y: scroll;
     position: fixed;
     z-index: 1;
-    top: 200px;
+    top: 120px;
     left: 185px;
     right: 60px;
   }
