@@ -39,7 +39,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     overflow-x: hidden;
-    background-color: #1d1d1d;
+    background-color: #000;
 }
 h1,
 h2,
@@ -463,7 +463,7 @@ img {
     top: 0;
     left: 0;
     padding: 0 34px;
-    background-color: #1d1d1d;
+    background-color: #000;
 }
 #searchbtn {
     cursor: pointer;
@@ -803,6 +803,7 @@ img {
 .about-content h2 {
     margin-bottom: 40px;
     font-size: 36px;
+    color: #fff;
 }
 
 .single-service-area img {
@@ -811,6 +812,7 @@ img {
 
 .single-service-area h5 {
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .single-pie-bar h6 {
@@ -896,8 +898,8 @@ img {
 /* :: 10.0 Portfolio Area CSS */
 
 .gallery_area {
-    height: calc(100% - 380px);
-    width: calc(100% - 245px);
+    height: calc(110% - 200px);
+    width: calc(110% - 200px);
     overflow-y: scroll;
     position: fixed;
     z-index: 1;
@@ -929,13 +931,13 @@ img {
 }
 
 .gallery_menu {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
 }
 
 .column_single_gallery_item {
