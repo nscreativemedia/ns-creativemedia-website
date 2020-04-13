@@ -453,7 +453,7 @@ img {
 .studio-btn {
     display: inline-block;
     color: #fff;
-    background-color: #1d1d1d;
+    background-color: #778899;
     height: 52px;
     padding: 0 15px;
     border-radius: 0;
@@ -1118,7 +1118,7 @@ img {
     border-left: 0;
     border-radius: 0;
     border-right: none;
-    background-color: transparent;
+    background-color: #bcc6cc;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
