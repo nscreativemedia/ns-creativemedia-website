@@ -40,6 +40,7 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     background-color: #000;
+    position: relative;
 }
 h1,
 h2,
@@ -59,6 +60,24 @@ p {
     line-height: 2;
     font-family: Montserrat;
     font-weight: 400;
+}
+
+strong {font-weight: bolder;
+  font-size: 18px;
+  color: #fff;
+  line-height: 2;
+  font-family: Montserrat;
+  letter-spacing: 2px;
+  display: flex;
+}
+
+strong-{font-weight: regular;
+  font-size: 14px;
+  line-height:2;
+  font-family: Montserrat;
+  color: #778899;
+  letter-spacing: 3px;
+  display: flex;
 }
 
 a:focus {
@@ -803,10 +822,12 @@ img {
 }
 
 .about-content h2 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 36px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    display: flex;
 }
 
 .single-service-area img {
@@ -826,11 +847,12 @@ img {
 /* :: 8.0 Follow Instagram Area CSS */
 
 .follow-me-instagram-area {
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 .follow-me-title h5 {
-    margin: 30px 0;
+    margin: 30px;
+    margin-left: -445px;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
     color: grey;
@@ -866,8 +888,41 @@ img {
 
 /* :: 9.0 Footer Area CSS */
 
-.footer-area {
+.footer-area-portfolio {
     position: fixed;
+    z-index: 100;
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    padding: 0 35px;
+    bottom: 0;
+    left: 0;
+}
+
+.single-footer-content-portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.single-footer-content-portfolio > a {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 5px;
+    line-height: 1;
+}
+
+.footer-color-portfolio {
+  font-size: 12px;
+  color: #fff;
+}
+
+.footer-area {
+    position: absolute;
     z-index: 100;
     background-color: #1d1d1d;
     height: 80px;
@@ -913,7 +968,7 @@ img {
   }
 
 .portfolio-menu button {
-    background-color: transparent;
+    background-color: #1d1d1d;
     font-size: 20px;
     font-weight: bolder;
     color: #fff;
