@@ -1167,6 +1167,8 @@ img {
     display: block;
     margin-bottom: 10px;
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .contact-core-info .single-footer-content img {
