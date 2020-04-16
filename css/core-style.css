@@ -50,7 +50,7 @@ h5,
 h6 {
     color: #1d1d1d;
     line-height: 1.2;
-    font-family: Playfair Display;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
@@ -482,7 +482,7 @@ img {
     top: 0;
     left: 0;
     padding: 0 34px;
-    background-color: #000;
+    background-color: transparent;
     transition: top 0.2s ease-in-out;
 }
 #searchbtn {
@@ -568,71 +568,6 @@ img {
     background: rgba(0, 0, 0, 0.3);
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.01) 90%, rgba(0, 0, 0, 0) 100%);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.01) 90%, rgba(0, 0, 0, 0) 100%);
-}
-.header-area-home{
-  background-color: transparent;
-  width: 100%;
-  height: 110px;
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  padding: 35px
-  transition: top 0.2s ease-in-out;
-}
-#searchbtn {
-    cursor: pointer;
-    margin-left: 15px;
-}
-
-.header-search-form,
-.search-form-on .navbar-nav {
-    display: none;
-}
-
-.search-form-on .header-search-form {
-    display: block;
-}
-
-.header-area-home .main-menu-home .nav-link {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding: 10px;
-}
-
-.header-area-home .main-menu-home .nav-link:hover,
-.header-area-home .main-menu-home .nav-link:focus {
-    color: #fff;
-}
-
-.header-search-form form input {
-    width: 600px;
-    height: 35px;
-    padding: 5px 15px;
-    font-size: 12px;
-    color: #fff;
-    border: none;
-    background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.6);
-    border-radius: 30px;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-.header-search-form-home form input:focus {
-    box-shadow: none;
-    border-color: rgba(255, 255, 255, 1);
-    background-color: transparent;
-}
-
-.gradient-background-overlay-home {
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 150px;
 }
 
 /* :: 5.0 Sidebar Area CSS */
@@ -816,7 +751,7 @@ img {
 .about-content span {
     width: 30px;
     height: 2px;
-    background-color: #bebebe;
+    background-color: #fff;
     margin: 0 auto 30px;
     display: block;
 }
@@ -847,7 +782,7 @@ img {
 /* :: 8.0 Follow Instagram Area CSS */
 
 .follow-me-instagram-area {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .follow-me-title h5 {
@@ -1137,7 +1072,7 @@ img {
 .map-area {
     position: relative;
     z-index: 1;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #googleMap {
