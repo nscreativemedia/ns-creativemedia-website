@@ -55,8 +55,8 @@ h6 {
 }
 
 p {
-    color: #838383;
-    font-size: 15px;
+    color: #fff;
+    font-size: 16px;
     line-height: 2;
     font-family: Montserrat;
     font-weight: 400;
@@ -64,7 +64,7 @@ p {
 
 strong {font-weight: bolder;
   font-size: 18px;
-  color: #fff;
+  color: #838383;
   line-height: 2;
   font-family: Montserrat;
   letter-spacing: 2px;
@@ -72,7 +72,7 @@ strong {font-weight: bolder;
 }
 
 strong-{font-weight: regular;
-  font-size: 14px;
+  font-size: 15px;
   line-height:2;
   font-family: Montserrat;
   color: #778899;
@@ -751,7 +751,7 @@ img {
 .about-content span {
     width: 30px;
     height: 2px;
-    background-color: #fff;
+    background-color: #bebebe;
     margin: 0 auto 30px;
     display: block;
 }
@@ -903,7 +903,7 @@ img {
   }
 
 .portfolio-menu button {
-    background-color: #1d1d1d;
+    background-color: transparent;
     font-size: 20px;
     font-weight: bolder;
     color: #fff;

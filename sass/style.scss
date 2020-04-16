@@ -314,14 +314,14 @@ h1, h2, h3, h4, h5, h6 {
 					outline: none;
 					text-decoration: none;
 				}
-			}	
+			}
 			&.active{
 				a{
 					color: $brand-primary;
 				}
 			}
 		}
-		
+
 	}
 
 	//SEARCH
@@ -436,7 +436,7 @@ header{
 	position: absolute;
 	top: 0;
 	left: 0;
-	right: 0;	
+	right: 0;
 	z-index: 9;
 	margin: 0 auto;
 	@media screen and (max-width: $screen-sm) {
@@ -961,7 +961,7 @@ header{
 		width: 90%;
 		background: $brand-white;
 		padding: 1em;
-		padding-top: 2em; 
+		padding-top: 2em;
 		.meta{
 			position: absolute;
 			top: -60px;
@@ -1263,7 +1263,7 @@ header{
   		display: block;
   		top: 0px;
   	}
-  
+
 }
 
 
@@ -1309,7 +1309,7 @@ header{
 	font-size: 16px;
 	font-weight: 300;
 	@include border-radius(0px);
-	
+
 	&:focus, &:active {
 		box-shadow: none;
 		border: 1px solid $brand-black;
