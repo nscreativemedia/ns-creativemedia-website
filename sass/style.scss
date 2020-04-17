@@ -73,7 +73,7 @@ $form-group-margin-bottom: 30px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -85,10 +85,10 @@ $form-group-margin-bottom: 30px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -97,7 +97,7 @@ $form-group-margin-bottom: 30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -378,10 +378,10 @@ h1, h2, h3, h4, h5, h6 {
 
 	//GALLERY
 	.gallery{
-		float: left;
+		float: none;
 		width: 50%;
 		height: 150px;
-		position: relative;
+		position: fixed;
 		display: table;
 		z-index: 0;
 		text-decoration: none;

@@ -397,7 +397,7 @@ img {
 }
 
 #scrollUp {
-    background-color: #222;
+    background-color: #778899;
     border-radius: 0;
     bottom: 100px;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -892,14 +892,14 @@ img {
 /* :: 10.0 Portfolio Area CSS */
 
 .gallery_area {
-    height: calc(110% - 200px);
-    width: calc(110% - 200px);
+    height: 81%;
     overflow-y: scroll;
-    position: fixed;
+    position:fixed;
     z-index: 1;
     top: 120px;
-    left: 185px;
+    left: 60px;
     right: 60px;
+    border-bottom: 40px;
   }
 
 .portfolio-menu button {
