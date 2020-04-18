@@ -787,7 +787,7 @@ img {
 
 .follow-me-title h5 {
     margin: 30px;
-    margin-left: -445px;
+    justify-content: center;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
     color: grey;
@@ -826,7 +826,7 @@ img {
 .footer-area-portfolio {
     position: fixed;
     z-index: 100;
-    background-color: transparent;
+    background-color: #1d1d1d;
     height: 80px;
     width: 100%;
     padding: 0 35px;
@@ -899,7 +899,6 @@ img {
     top: 120px;
     left: 60px;
     right: 60px;
-    border-bottom: 40px;
   }
 
 .portfolio-menu button {
