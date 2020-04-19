@@ -54,6 +54,7 @@ h6 {
     font-weight: 500;
 }
 
+
 p {
     color: #fff;
     font-size: 16px;
@@ -473,6 +474,17 @@ img {
 }
 
 /* :: 4.0 Header Area CSS */
+
+.name-link{
+  background-color: #fff;
+  margin-top:9px;
+  height: 73px;
+  width: 115px;
+  border: 10px;
+  font-weight: bold !important;
+  padding-left: 10px;
+  font-family: 'Poppins', sans-serif !important;
+}
 
 .header-area {
     width: 100%;
