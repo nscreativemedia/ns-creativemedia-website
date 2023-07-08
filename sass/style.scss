@@ -378,10 +378,10 @@ h1, h2, h3, h4, h5, h6 {
 
 	//GALLERY
 	.gallery{
-		float: none;
+		float: left;
 		width: 50%;
 		height: 150px;
-		position: fixed;
+		position: relative;
 		display: table;
 		z-index: 0;
 		text-decoration: none;
@@ -464,11 +464,28 @@ header{
 	}
 }
 
+// Added
+#colorlib-photography{
+  padding:10em 0;
+  position:relative;
+  clear:both;
+  padding: 20em 0;
+}
 
+// @media screen and (max-width: 768px) {
+//   #colorlib-photography
+//   #colorlib-services,
+//   #colorlib-contact,
+//   #colorlib-ux,
+//   #colorlib-travel,
+//   #colorlib-contact {
+//     padding: 5em 0; } }
+// End Added
 #colorlib-services,
 #colorlib-contact,
-#colorlib-work,
-#colorlib-blog,
+#colorlib-ux,
+#colorlib-travel,
+#colorlib-photography,
 #colorlib-contact{
 	padding: 10em 0;
 	clear: both;
@@ -731,7 +748,7 @@ header{
 }
 // heading
 .intro-heading{
-	margin-bottom: 3em;
+	// margin-bottom: 3em;
 	h2{
 		font-size: 34px;
 		font-weight: 400;
@@ -761,7 +778,7 @@ header{
 .hero-img,
 .about-img,
 .work-img,
-.gallery{
+.photography{
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;

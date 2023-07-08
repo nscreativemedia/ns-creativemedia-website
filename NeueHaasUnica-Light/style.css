@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Neue Haas Unica';
+    src: local('Neue Haas Unica Light'), local('Neue-Haas-Unica-Light'),
+        url('NeueHaasUnica-Light.woff2') format('woff2'),
+        url('NeueHaasUnica-Light.woff') format('woff'),
+        url('NeueHaasUnica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
