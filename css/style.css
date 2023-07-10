@@ -16,15 +16,13 @@
     font-style: normal;
   }
   @font-face {
-      font-family: 'sageregular';
-      src: url('sage-webfont.woff2') format('woff2'),
-           url('sage-webfont.woff') format('woff'),
-           url('sage-webfont.ttf') format('truetype'),
-           url('sage-webfont.svg#sageregular') format('svg');
+      font-family: "sage";
+      src: url('../sage/sage-webfont.woff2') format('woff2'),
+           url('../sage/sage-webfont.woff') format('woff'),
+           url('../sage/sage-webfont.ttf') format('truetype'),
+           url('../sage/sage-webfont.svg#sageregular') format('svg');
       font-weight: normal;
-      font-style: normal;
-
-  }
+      font-style: normal;}
 /* End added */
 /* =======================================================
 *
@@ -144,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
       z-index: 3; }
   @media screen and (max-width: 768px) {
     #colorlib-page {
-      padding-top: 5em; } }
+      padding-top: 0em; } }
 
 #colorlib-main-nav {
   position: absolute;
@@ -377,26 +375,42 @@ header {
   @media screen and (max-width: 768px) {
     header {
       padding: 2em 0; } }
-  header .colorlib-navbar-brand {
-    float: left;}
-    header .colorlib-navbar-brand .colorlib-logo {
-      /* font-size: 24px; */
-      /* text-transform: uppercase; */
-      color: #000;
-      font-size: 55px;
-      font-family: sage;
-      font-weight: 500;
-      letter-spacing: 6px;
-      /* font-family: "Playfair Display", Georgia, serif; */
-      /* font-weight: 700; */
-      /* letter-spacing: 10px; */
-      display: block;
-      text-align: center; }
-      header .colorlib-navbar-brand .colorlib-logo:hover {
-        text-decoration: none !important; }
-      header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-brand .colorlib-logo:focus {
-        outline: none;
-        text-decoration: none; }
+
+header .colorlib-navbar-brand {
+    float: left;
+}
+header .colorlib-navbar-brand .colorlib-logo {
+  /* font-size: 24px; */
+  /* text-transform: uppercase; */
+  color: #000;
+  font-size: 55px;
+  font-family: sage;
+  font-weight: 500;
+  letter-spacing: 6px;
+  /* font-family: "Playfair Display", Georgia, serif; */
+  /* font-weight: 700; */
+  /* letter-spacing: 10px; */
+  display: block;
+  text-align: center; 
+}
+
+@media screen and (max-width: 844px) {
+    .colorlib-head-brand .colorlib-logo{
+        font-size: 45px !important;
+        padding-top: 4px;
+    }
+
+}
+
+header .colorlib-navbar-brand .colorlib-logo:hover {
+    text-decoration: none !important; 
+}
+
+
+header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-brand .colorlib-logo:focus {
+    outline: none;
+    text-decoration: none; 
+}
 
 /*brand head begin*/
 .colorlib-head-brand {
@@ -414,7 +428,7 @@ padding: 1em 0;
 
 .colorlib-head-brand .colorlib-logo{
     color: #4a4849;
-    font-size: 60px;
+    font-size: 55px;
     font-family: sage;
     font-weight: 500;
     letter-spacing: 4px;
@@ -478,12 +492,16 @@ header {
   clear: both;
   position: relative; }
   @media screen and (max-width: 768px) {
-    #colarlib-photography,
-    #colorlib-services,
     #colorlib-contact,
-    #colorlib-ux,
     #colorlib-travel {
       padding: 5em 0; } }
+
+@media screen and (max-width: 768px){
+    #colorlib-services,
+    #colorlib-photography,
+    #colorlib-ux{
+        padding-top: 12em;
+}}
 
 #colorlib-hero {
   width: 100%;
@@ -726,7 +744,8 @@ header {
   font-weight: 20; }
   @media screen and (max-width: 768px) {
     .bold {
-      font-size: 60px; } }
+      font-size: 60px;
+      margin-top: 70px;} }
 
 .intro-heading {
   margin-bottom: 0px; }
@@ -909,20 +928,22 @@ header {
     /* End Added */
 
 
-    /* .article .blog-img .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.6);
-      transition: filter .5s ease-in-out;
-      opacity: 0;
-      -webkit-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s; } */
+ .article .blog-img .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  transition: filter .5s ease-in-out;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; } 
+/*
 
-/* .article .blog-img img {
+MAKE GALLERY IMG BNW
+ .article .blog-img img {
   filter: none;
   -webkit-filter: grayscale(100%);
   -moz-filter:    grayscale(100%);
@@ -938,7 +959,8 @@ header {
   -ms-filter:     none;
   -o-filter:      none;
   cursor: pointer;
-} */
+} 
+*/
 
     .article .blog-img .link {
       position: absolute;
@@ -1598,8 +1620,8 @@ input[type="text"] {
     #myBtn {
       display: none; /* Hidden by default */
       position: fixed; /* Fixed/sticky position */
-      bottom: 30px; /* Place the button at the bottom of the page */
-      right: 30px; /* Place the button 30px from the right */
+      bottom: 40px; /* Place the button at the bottom of the page */
+      right: 40px; /* Place the button 30px from the right */
       z-index: 99; /* Make sure it does not overlap */
       border: none; /* Remove borders */
       outline: none; /* Remove outline */
@@ -1615,10 +1637,60 @@ input[type="text"] {
       /* font-family: sage; */
     }
 
+@media screen and (max-width: 768px) {
+      #myBtn {
+        font-size: 20px;
+        bottom:30px;
+        padding-bottom: 5px;
+        padding-left:15px;
+        padding-right: 15px;
+        padding-top: 4px;
+        right: 20px;} }
+
     #myBtn:hover {
       background-color: #919582;
       color: white;/* Add a dark-grey background on hover */
     }
+
+#myGallery {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 40px; /* Place the button at the bottom of the page */
+      left: 40px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      color: #4a4849; /* Text color */
+      text-decoration: none;
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding-top: 5px; /* Some padding */
+      padding-bottom: 0px; /* Some padding */
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 8px; /* Rounded corners */
+      font-size: 28px; /* Increase font size */
+      font-family: sage; 
+    }
+#myGallery a{
+    color: #4a4849;
+}
+
+@media screen and (max-width: 768px) {
+      #myGallery {
+        left: 20px;
+        bottom: 30px;
+        font-size: 20px;} }
+
+#myGallery:hover {
+      background-color: #919582;
+      color: #ffffff;/* Add a dark-grey background on hover */
+    }
+
+#myGallery a:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+
 
 .colorlib-progress{
   background-color:#919582;
@@ -1630,11 +1702,13 @@ input[type="text"] {
   border-bottom: 0px; }
 
 .portfolio-menu button {
-    font-size: 16px !important;
+    font-size: 20px !important;
     border-radius: 8px;
     z-index: 1009;
     background-color: #ffffff;
     color:#4a4849;
+    font-family: sage;
+    padding-bottom: 5px;
     
 /*
     color: #fff;
@@ -1645,10 +1719,15 @@ input[type="text"] {
 */
 }
 
+.portfolio-menu button a{
+    color:#4a4849;
+}
+
 @media screen and (max-width: 850px) {
     .portfolio-menu button {
-    font-size: 13px !important; 
-    z-index: 2000;} }
+    font-size: 15px !important; 
+    z-index: 2000;
+    padding-bottom: 5px;} }
 
 .row.sticky {
     position:sticky;
@@ -1656,7 +1735,7 @@ input[type="text"] {
     z-index: 2000;}
 @media screen and (max-width: 850px) {
     .row.sticky {
-    top:100px; 
+    top:70px;
     z-index: 2000;} }
 
 /*
@@ -1669,15 +1748,18 @@ input[type="text"] {
 }
 */
 
-.portfolio-menu button.active,
-.portfolio-menu button:hover {
+.portfolio-menu button.btn.active,
+.portfolio-menu button:hover{
     background-color: #919582;
     color:#ffffff;
+    text-decoration: none;
 }
 
-.portfolio-menu button:checked{
-    background-color: #919582;
+.portfolio-menu button.btn.active a,
+.portfolio-menu button a:hover,
+.portfolio-menu button:hover a{
     color:#ffffff;
+    text-decoration: none;
 }
 
 .gallery_menu {
@@ -1690,6 +1772,13 @@ input[type="text"] {
     padding: 15px;
     color:#4a4849;
     margin-bottom: 25px;
+}
+
+@media screen and (max-width:844px){
+    .women-text{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
 }
 
 .iframeWatch{
